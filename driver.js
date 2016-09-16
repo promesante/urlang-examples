@@ -2,7 +2,7 @@ var fact = require( "./demo-fact" );
 console.log("fact(7) = " + fact.fact(7));
 
 var sum = require( "./demo-sum" );
-console.log(fibonacci.fibo(7));
+console.log("sum: " + sum.sum);
 
-var fibonacci = require( "./demo-fibonacci" );
-console.log(fibonacci.fibo(7));
+var fibo = require( "./demo-fibo" );
+console.log("fibo(5): " + fibo.fibo(5));
