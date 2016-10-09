@@ -6,4 +6,4 @@ According to [Jens Axel Søgaard](https://github.com/soegaard), its author, "the
 
 As I am interested in all these projects, coding Urlang examples seems a sensible first step to begin learning about them all, at the same time.
 
-As soon as I finish coding each example, I will publish its corresponding post in my [blog](http://promesante.github.io/).
+I am coding examples, and sharing the resulting code in this repo and in my [blog](http://promesante.github.io/).
