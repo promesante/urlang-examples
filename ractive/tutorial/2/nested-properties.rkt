@@ -96,6 +96,8 @@
 ;; Under development it is convenient to use send-url/contents to send
 ;; the web-page directly to the browser.
 
+(define atchar #\@)
+
 (send-url/contents
  (generate-html
   @~a{
@@ -103,7 +105,7 @@
   <h2>Country profile</h2>
     {{#with country}}
     <p>{{name}} is a {{climate.temperature}} country with {{climate.rainfall}} rainfall and a population of {{population}}.</p>
-    <p>The capital city is {{capital.name}} (<a href='https://maps.google.co.uk/maps/place/{{capital.name}}/@{{capital.lat}},{{capital.lon}},12z' target='_blank'>see map</a>).</p>
+    <p>The capital city is {{capital.name}} (<a href='https://maps.google.co.uk/maps/place/{{capital.name}}/@|atchar|{{capital.lat}},{{capital.lon}},12z' target='_blank'>see map</a>).</p>
     {{/with}}
 
  }))
